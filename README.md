@@ -1,4 +1,4 @@
-![Your Image](<img src="https://github.com/arnabc-hub/vivid/blob/main/cover.jpg" alt="Vivid Logo" width="600" height="200">)
+<img src="https://github.com/arnabc-hub/vivid/blob/main/cover.jpg" alt="Vivid Logo" width="600" height="200">
 
 # VIVID
 
