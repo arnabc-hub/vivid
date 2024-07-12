@@ -1,4 +1,4 @@
-<img src="https://github.com/arnabc-hub/vivid/blob/main/cover.png" alt="Vivid Logo" width="700" height="170">
+<img src="https://github.com/arnabc-hub/vivid/blob/main/cover.png" alt="Vivid Logo" width="700" height="200">
 
 # VIVID
 
