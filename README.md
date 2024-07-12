@@ -1,3 +1,5 @@
+![Your Image](cover.jpg)
+
 # VIVID
 
 ## What is Vivid?
