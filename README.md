@@ -21,7 +21,7 @@ Vivid aims to empower the HR community with a reliable and intelligent platform 
 
 ## Docs
 We are actively developing our documentation. Currently, you can find:
-- **Quick Start Guide**: The official guide to getting started with Vivid.
+- **Quick Start Guide**[Quick Start Guide](QUICK_START_GUIDE.md): The official guide to getting started with Vivid.
 - **API Docs**: Automatically generated documentation for Vivid's API.
 
 More documentation, examples, and tutorials will be added as the project evolves.
