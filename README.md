@@ -59,14 +59,13 @@ Unless stated otherwise, any contribution intentionally submitted for inclusion 
 
 ## Vivid Examples
 
-We are in the process of developing examples to showcase how to perform various analyses using the Vivid platform. These examples will demonstrate the basic functionality and provide a starting point for users to explore the platform's capabilities.
+We are developing examples to showcase how to perform various analyses using the Vivid platform. These examples will demonstrate the basic functionality and provide a starting point for users to explore the platform's capabilities.
 
 ### Example in Progress
 
-We are currently working on providing a basic example of how to perform an analysis using Vivid. This example will include a Python script that initializes Vivid and runs a default analysis.
+A basic example is being prepared, which will include a Python script that initializes Vivid and runs a default analysis.
 
 Stay tuned for updates and new examples as we continue to build and improve the platform.
-
 
 ## Prerequisites
 
