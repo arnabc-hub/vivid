@@ -36,7 +36,7 @@ Future plans include:
 - **Vivid Assets**: A collection of related projects, tools, plugins, and educational materials.
 
 ## Contributing
-Interested in contributing to Vivid? Check out our [Contributor's Guide](CONTRIBUTING.md). For simpler issues, feel free to open an issue or PR and address it yourself!
+Interested in contributing to Vivid? Check out our [Contributor's Guide](CONTRIBUTING). For simpler issues, feel free to open an issue or PR and address it yourself!
 
 For more complex architectural decisions or experimental features, please open an RFC (Request For Comments) so we can brainstorm together.
 
