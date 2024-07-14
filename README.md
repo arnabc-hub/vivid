@@ -57,9 +57,16 @@ Assets included in this repository (for examples) typically have different open 
 
 Unless stated otherwise, any contribution intentionally submitted for inclusion in the project by you, as defined in the Apache-2.0 license, shall be dual-licensed as above, without additional terms or conditions.
 
-# Vivid Basic Analysis Example
+## Vivid Examples
 
-This repository provides a basic example of how to perform an analysis using the Vivid platform. The provided Python script initializes Vivid and runs a default analysis, showcasing the basic functionality of the platform.
+We are in the process of developing examples to showcase how to perform various analyses using the Vivid platform. These examples will demonstrate the basic functionality and provide a starting point for users to explore the platform's capabilities.
+
+### Example in Progress
+
+We are currently working on providing a basic example of how to perform an analysis using Vivid. This example will include a Python script that initializes Vivid and runs a default analysis.
+
+Stay tuned for updates and new examples as we continue to build and improve the platform.
+
 
 ## Prerequisites
 
