@@ -1,0 +1,150 @@
+# Contributing to Vivid
+
+Hello! We're excited that you're interested in contributing to Vivid! Feel free to dive into any area that interests you, and we'll be happy to assist you in your contributions.
+
+Be sure to check out our [Code of Conduct](https://github.com/vivid-org/vivid/blob/main/CODE_OF_CONDUCT.md) and join us on [Discord](#) to chat about Vivid development, ask questions, and get to know other contributors and users in a more informal setting.
+
+This guide will help you get started with:
+
+- Understanding the high-level design goals of Vivid.
+- Learning about our development conventions and practices.
+- Getting general advice on good open source collaboration.
+- Finding specific ways you can contribute, regardless of your background or skill level.
+
+We're thrilled to have you on board as we build!
+
+## Getting Oriented
+
+Vivid is a large project, aimed at providing a comprehensive toolset for HR professionals. To help you get started, here's an overview of our main repositories:
+
+1. **[`vivid`](https://github.com/vivid-org/vivid)**: The core of the platform. Most development happens here.
+2. **[`vivid-website`](https://github.com/vivid-org/vivid-website)**: Hosts our official website, documentation, and community resources.
+3. **[`vivid-assets`](https://github.com/vivid-org/vivid-assets)**: A collection of community-made resources like tutorials, plugins, and tools. Make a PR to showcase your projects here!
+4. **[`rfcs`](https://github.com/vivid-org/rfcs)**: A place to collaboratively discuss and reach consensus on significant features and changes.
+
+The `vivid` repository contains several modular subcomponents, allowing you to use only the parts you need.
+
+## Our Goals
+
+Vivid aims to be a robust, flexible platform for HR transformation, talent management, and total rewards. Our design goals include:
+
+- **Comprehensive**: Offering a full suite of HR tools.
+- **User-Friendly**: Easy for HR professionals to use, yet flexible for advanced users.
+- **Data-Driven**: Leveraging data for analytics and recommendations.
+- **Modular**: Use only the components you need.
+- **Efficient**: Optimize processes to save time and resources.
+- **Collaborative**: Encouraging community contributions and shared improvements.
+
+Our development process prioritizes:
+
+- **Rapid experimentation over API stability**: We need freedom to iterate and build the best platform.
+- **Consistent vision**: Ensuring the platform feels cohesive and well-integrated.
+- **Flexibility over bureaucracy**: Keeping developers productive without unnecessary red tape.
+- **Focus**: Prioritizing high-impact features and changes.
+- **User-facing API ergonomics first**: Prioritizing user experience.
+- **Modularity over deep integration**: Keeping components pluggable.
+- **Selective merging**: Only merging features that are generally useful and supported by our team.
+- **Controlled dependencies**: Minimizing external dependencies.
+- **Rust-first**: Optimizing for Rust workflows and compatibility.
+- **Thoughtful public interfaces**: Exposing only necessary and well-designed APIs.
+- **Welcoming new contributors**: Investing in onboarding and mentorship.
+- **Civil discourse**: Maintaining respectful and productive conversations.
+- **Practical testing**: Writing useful tests and examples, not testing for its own sake.
+
+## The Vivid Organization
+
+The Vivid Organization manages the project's direction, merges pull requests, handles issues, runs the website, and maintains best practices. You don't need to be a member to contribute—everyone is welcome to participate by opening issues, submitting pull requests, and reviewing others' work.
+
+## Classifying PRs
+
+We use labels to organize work:
+
+- **Difficulty** (e.g., `Difficulty-Trivial`, `Difficulty-Straightforward`, `Difficulty-Modest`, `Difficulty-Complex`, `Difficulty-Unsafe`).
+- **Controversiality** (e.g., `Controversiality-Uncontroversial`, `Controversiality-Contentious`, `Controversiality-Controversial`, `Controversiality-Blessed`).
+- **Area** (e.g., `Area-Documentation`, `Area-API`, `Area-UI`).
+- **Category** (e.g., `Category-Breaking-Change`, `Category-Enhancement`, `Category-Bug`).
+- **Operating System** (e.g., `OS-Linux`, `OS-Mac`, `OS-Windows`).
+- **Priority** (e.g., `Priority-Critical`, `Priority-High`).
+- **Status** (e.g., `Status-Blocked`, `Status-Needs-Review`, `Status-Needs-Design`).
+
+## Making Changes to Vivid
+
+### Simple Changes
+
+For straightforward changes:
+
+1. Open a [GitHub Discussion](#) to propose your idea or implementation.
+2. Create an [Issue](https://github.com/vivid-org/vivid/issues) to track a bug or feature.
+3. Submit a [Pull Request](https://github.com/vivid-org/vivid/pulls) (PR) with your code changes. For larger changes, consider starting with a Discussion or Issue.
+4. Community members will review and comment on your PR.
+5. Once reviewed and approved by at least two community members or a maintainer, your PR will be merged after CI passes.
+
+### Complex Changes
+
+For more significant changes:
+
+1. Identify the need or opportunity and create an issue.
+2. Discuss further in the issue thread, GitHub Discussions, or Discord.
+3. Create a Draft PR or RFC for complex features.
+4. Split out independent parts into separate PRs if possible.
+5. Collaborate with the community to refine the Draft PR or RFC.
+6. Once ready, follow the usual process for PRs.
+
+## How You Can Help
+
+There are many ways to contribute to Vivid, no matter your experience level:
+
+### Join or Start a Working Group
+
+Working groups focus on specific initiatives. Join an existing group or start a new one by gathering at least three people and proposing your focus area to the maintainers on Discord.
+
+### Battle-Test Vivid
+
+Use Vivid in your projects and provide feedback by filing issues for bugs, missing documentation, or new features. Share your successes in our community channels.
+
+### Teach Others
+
+Help others by answering questions on GitHub Discussions, Discord, and Reddit. Write tutorials, guides, or create videos and share them with the community.
+
+### Write Plugins
+
+Improve Vivid's ecosystem by creating and sharing plugins. Check out our plugin guidelines for tips and best practices.
+
+### Fix Bugs
+
+Look for issues labeled [`Good-First-Issue`](https://github.com/vivid-org/vivid/labels/Good-First-Issue) and start fixing bugs. State your intention to avoid duplicate work and include `Fixes #X` in your PR description to close issues automatically when your PR is merged.
+
+### Write Documentation and Examples
+
+Help improve Vivid's documentation and examples. Inaccurate documentation is worse than none, so focus on fixing broken docs first. Create clear, minimal examples to demonstrate features and update `examples/README.md` and the root `Cargo.toml` file when adding new examples.
+
+### Review Others' Work
+
+Reviewing others' contributions is highly valuable. Provide constructive feedback, ask questions, and suggest improvements. Leave an `Approved` review when you're satisfied with the changes.
+
+## Adopting Pull Requests
+
+If a PR is unresponsive, comment to see if it can be adopted. Fork the original branch, make your changes, and reference the original PR in your new PR description.
+
+## Contributing Code
+
+Here's the workflow for contributing code:
+
+1. Fork the `vivid-org/vivid` repository on GitHub.
+2. Make your changes in a new branch on your fork.
+3. Run `cargo run -p ci` to test CI validations locally.
+4. Push your changes and open a Pull Request.
+5. Respond to CI failures and review feedback.
+6. Once ready, a maintainer will merge your PR.
+
+When contributing, please:
+
+- Follow the workflow in [Making Changes to Vivid](#making-changes-to-vivid).
+- Consult our style guide to keep the codebase tidy.
+- Explain your changes and why they're needed.
+- Document new code with comments.
+- Include tests and examples for new functionality.
+- Break work into manageable chunks.
+- Ask for help when needed.
+
+Thanks for contributing to Vivid!
