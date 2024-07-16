@@ -72,4 +72,4 @@ We appreciate your patience and understanding as we strive to deliver high-quali
 Ensure you have the `vivid` package installed. You can install it using pip:
 
 ```bash
-pip install vivid_2024
+pip install vivid-2024
