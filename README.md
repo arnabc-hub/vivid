@@ -69,7 +69,7 @@ We appreciate your patience and understanding as we strive to deliver high-quali
 
 ## Prerequisites
 
-Ensure you have the `vivid` package installed. You can install it using pip:
+Ensure you have the `vivid-2024` package installed. You can install it using pip:
 
 ```bash
 pip install vivid-2024
